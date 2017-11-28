@@ -82,7 +82,7 @@ struct URLConstant {
     private static  let LIVE_POZ_BASE_URL = "poz.healthsignz.co/"
     private static  let LIVE_ELASTIC_BASE_URL = "search.healthsignz.co/"
     private static  let LIVE_CHAT_URL = "http://chat.healthsignz.co/"
-    private  static let LIVE_SSL_PORT = ["8082", "8082", "3000", "3000"]
+    private static let LIVE_SSL_PORT = ["8082", "8082", "3000", "3000"]
     
     public static  let SOCKET_PORTS = [
             [ DEV_SOCKET_PORT, LOCAL_UAT_SOCKET_PORT, AWS_DEV_SOCKET_PORT, AWS_QA_SOCKET_PORT, AWS_DEMO_SOCKET_PORT, AWS_UAT_SOCKET_PORT, LIVE_SOCKET_PORT],
@@ -96,4 +96,10 @@ struct URLConstant {
     
     public static let LOGIN_URL = "http://52.66.161.51:8080/POZAppServices/poccontrol/userlogin"
     public static let SERVICE_URL = "http://52.66.161.51:8080/POZAppServices/admincontrol/getallservices"
+    
+    //chat URL
+    public static let CHAT_URL = "http://34.250.47.212:3000/";
+    public static let GET_PROFILE_LIST = "hspackage/getusersfordoctor?doctorId=%d";
+    public static let DOCTOR_CHAT_SEARCH = "autocompletecallforchat";
+    
 }
